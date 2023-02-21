@@ -1,0 +1,26 @@
+baseURL = '/'
+languageCode = 'es-es'
+title = 'Legacy S.A. Web de equipo'
+
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Manuales"
+    url = "/manual/"
+    weight = 2
+
+[[menu.main]]
+    name = "Como usar esta web"
+    url = "/how-to/"
+    weight = 3
+[[menu.main]]
+    name = "Sobre nosotros"
+    url = "/about/"
+    weight = 4
